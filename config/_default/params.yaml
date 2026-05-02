@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: ""
+    name: "DGMM 2027"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "DGMM 2027"
     # Schema.org type for structured data
     type: organization                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "International Conference on Discrete Geometry and Mathematical Morphology"
     # Site meta description for search engines and social sharing
-    description: "GT GDMM Géométrie Discrète et Morphologie Mathématiques"
+    description: "DGMM 2027 — International Conference on Discrete Geometry and Mathematical Morphology, Grenoble, France"
     # Social accounts (used for meta tags like Twitter Cards)
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -88,9 +88,9 @@ hugoblox:
     align: center                       # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false

@@ -1,73 +1,73 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2024-01-01
 type: landing
 
 design:
-  # Default section spacing
-  spacing: '6rem'
+  spacing: '5rem'
+
 sections:
   - block: hero
     content:
       title: ""
       text: |
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center; position: relative; z-index: 2;">
-          
-          <div style="text-align: left;">
-            <h1 style="color: #000000; font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px;">
-              GT GDMM
-            </h1>
-            
-            <div style="color: #333333; font-size: 1.3rem; font-weight: 500; line-height: 1.6;">
-              <p style="margin-bottom: 10px;">
-                Groupe de Travail <b>Géométrie Discrète</b> et <b>Morphologie Mathématique</b>.
-              </p>
-              <p style="font-size: 1.1rem; color: #555;">
-                Bienvenue sur le site du GT commun aux GdR IM et IG-RV.
-              </p>
-            </div>
-            
-            <br>
-            <a href="#news" class="btn btn-primary btn-lg" style="border-radius: 5px;">Voir les actualités</a>
+        <div class="dgmm-hero-wrap">
+          <span class="dgmm-hero-badge">IAPR International Conference</span>
+          <div class="dgmm-hero-title">DGMM 2027</div>
+          <div class="dgmm-hero-subtitle">Discrete Geometry and Mathematical Morphology</div>
+          <div class="dgmm-hero-meta">
+            <a href="https://maps.app.goo.gl/tFDL14t5mUcT1FKP7" target="_blank" rel="noopener" class="dgmm-hero-chip">📍 Grenoble, France</a>
+            <span class="dgmm-hero-sep">|</span>
+            <span class="dgmm-hero-chip">📅 Date TBD, 2027</span>
           </div>
-
-          <div style="text-align: center;">
-             <img src="/media/gdr.png" alt="Logos Partenaires" style="max-width: 350px; width: 100%; height: auto;">
+          <div class="dgmm-hero-buttons">
+            <a href="/call-for-papers/" class="dgmm-btn-primary">Call for Papers</a>
+            <a href="/program/" class="dgmm-btn-outline">Program</a>
           </div>
-          
         </div>
-
     design:
-      # "2" divise l'écran : Texte à gauche | Image (gdr.png) à droite
       columns: '1'
-      
-      background:
-        # C'est ce paramètre qui place l'image en FOND (derrière le texte)
-        image:
-          filename: "logo_gdmm.png"
-          size: "contain" 
-          position: "center right"
-          
-        css_style: |
-          background-image: url('/media/logo_gdmm.png');
-          background-size: 500px; /* On force une taille RAISONNABLE */
-          background-repeat: no-repeat;
-          background-position: right center; /* On la cale à droite */
-          background-blend-mode: overlay; /* Elle se fond dans le gris */
-          opacity: 1;
-        
-      # Ajustement de la taille de l'image de droite (GDMM)
-      css_class: "hero-text-align-left"
-  - block: collection
-    id: news
+      css_class: "dgmm-hero-section"
+
+  - block: hero
     content:
-      title: Dernières Annonces
-      page_type: post
-      count: 5
-      filters:
-        exclude_future: true
-        order: desc
+      title: ""
+      text: |
+        <div class="dgmm-home-grid">
+
+          <div class="dgmm-home-main">
+
+            <h2 class="dgmm-section-title">Welcome</h2>
+            <p><strong>DGMM 2027</strong> is the International Conference on Discrete Geometry and Mathematical Morphology, organised under the auspices of the <a href="https://tc18.org/">IAPR Technical Committee TC18</a>. It will be held in <strong>Grenoble, France</strong> in 2027.</p>
+            <p>DGMM is the successor of two landmark IAPR conferences — <strong>DGCI</strong> (Discrete Geometry for Computer Imagery) and <strong>ISMM</strong> (International Symposium on Mathematical Morphology) — unified since 2021 to bring together the two communities in a single venue.</p>
+            <p>The conference covers the full spectrum of discrete geometry and mathematical morphology, from theoretical foundations to applications in image analysis, computer vision, and pattern recognition. Proceedings will be published in <strong>Springer Lecture Notes in Computer Science (LNCS)</strong>.</p>
+
+            <h2 class="dgmm-section-title" style="margin-top:2rem;">Important Dates</h2>
+            <table class="dgmm-dates-table">
+              <tbody>
+                <tr><td>Paper submission deadline</td><td>TBD</td></tr>
+                <tr><td>Notification of acceptance</td><td>TBD</td></tr>
+                <tr><td>Camera-ready papers due</td><td>TBD</td></tr>
+                <tr><td>Early registration deadline</td><td>TBD</td></tr>
+                <tr><td>Conference</td><td>TBD, 2027 — Grenoble, France</td></tr>
+              </tbody>
+            </table>
+            <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">All deadlines are 23:59 AoE (Anywhere on Earth).</p>
+
+          </div>
+
+          <aside class="dgmm-home-sidebar">
+            <h3 class="dgmm-sidebar-title">News &amp; Announcements</h3>
+            <ul class="dgmm-news-list">
+              <li class="dgmm-news-item">
+                <span class="dgmm-news-date">2025</span>
+                <span class="dgmm-news-text">Website launched. More announcements to follow.</span>
+              </li>
+            </ul>
+          </aside>
+
+        </div>
     design:
-      view: compact
+      columns: '1'
+      css_class: "dgmm-content-block"
 ---

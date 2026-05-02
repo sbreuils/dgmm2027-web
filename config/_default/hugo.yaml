@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: 'GT GDMM'
+title: 'DGMM 2027'
 # Website URL
 baseURL: 'https://example.com/'
 
@@ -47,6 +47,9 @@ taxonomies:
   publication_type: publication_types
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     lineNos: false
 security:

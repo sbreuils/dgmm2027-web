@@ -1,15 +1,25 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: GT GDMM
+  - name: Home
     url: /
     weight: 10
-  - name: Laboratoires partenaires
-    url: /membres
+  - name: Call for Papers
+    url: /call-for-papers
     weight: 20
-  - name: Activités
-    url: /activites
+  - name: Invited Speakers
+    url: /invited-speakers
     weight: 30
+  - name: Program
+    url: /program
+    weight: 40
+  - name: Committees
+    url: /committees
+    weight: 50
+  - name: Registration
+    url: /registration
+    weight: 60
+  - name: Venue
+    url: /venue
+    weight: 70
