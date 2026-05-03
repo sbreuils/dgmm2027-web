@@ -38,9 +38,9 @@ sections:
           <div class="dgmm-home-main">
 
             <h2 class="dgmm-section-title">Welcome</h2>
-            <p><strong>DGMM 2027</strong> is the International Conference on Discrete Geometry and Mathematical Morphology, organised under the auspices of the <a href="https://tc18.org/">IAPR Technical Committee TC18</a>. It will be held in <strong>Grenoble, France</strong> in 2027.</p>
-            <p>DGMM is the successor of two landmark IAPR conferences — <strong>DGCI</strong> (Discrete Geometry for Computer Imagery) and <strong>ISMM</strong> (International Symposium on Mathematical Morphology) — unified since 2021 to bring together the two communities in a single venue.</p>
-            <p>The conference covers the full spectrum of discrete geometry and mathematical morphology, from theoretical foundations to applications in image analysis, computer vision, and pattern recognition. Proceedings will be published in <strong>Springer Lecture Notes in Computer Science (LNCS)</strong>.</p>
+            <p><strong>DGMM 2027</strong> is the fourth joint International Conference on Discrete Geometry and Mathematical Morphology, organised under the auspices of the <a href="https://tc18.org/">IAPR Technical Committee TC18</a>. It will be held in <strong>Grenoble, France</strong> in 2027.</p>
+            <p>DGMM is the successor of two IAPR conferences — <strong>DGCI</strong> (Discrete Geometry for Computer Imagery) and <strong>ISMM</strong> (International Symposium on Mathematical Morphology), unified in 2021.</p>
+            <p>DGMM offers the opportunity for researchers, students, and practitioners to share and discuss novel high quality research results within the fields of discrete geometry and mathematical morphology and their applications to image processing and image analysis. Both theoretical and application-focused contributions related to these topics are welcome.</p>
 
             <h2 class="dgmm-section-title" style="margin-top:2rem;">Important Dates</h2>
             <table class="dgmm-dates-table">
