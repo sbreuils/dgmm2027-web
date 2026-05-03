@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 2, 2026 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="system"
+<!-- Last Published: May 3, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="light"
       data-hbb-relurl="/">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -1266,13 +1266,13 @@
   
   
   
-    <link rel="icon" type="image/png" href="/media/icon_hu_86cdaf2f328898c0.png" />
+    <link rel="icon" type="image/png" href="/media/icon_hu_9be77a8b3bd10937.png" />
   
   
   
   
     
-      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_8b8256cf55eeeae1.png" />
+      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_8bbba92a0f59a423.png" />
     
   
 
@@ -1304,8 +1304,8 @@
   <meta property="og:site_name" content="DGMM 2027" />
   <meta property="og:url" content="http://localhost:1313/tags/hugo/" />
   <meta property="og:title" content="Hugo | DGMM 2027" />
-  <meta property="og:description" content="DGMM 2027 — International Conference on Discrete Geometry and Mathematical Morphology, Grenoble, France" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="DGMM 2027 — International Conference on Discrete Geometry and Mathematical Morphology, Grenoble, France" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_a455da02199aa18f.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_a455da02199aa18f.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2023-10-26T00:00:00&#43;00:00" />
@@ -2115,51 +2115,124 @@
     
       
         
-        <style>
+        
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+
+<script>
+  (function() {
+    var html = document.documentElement;
+    html.classList.remove('dark');
+    html.classList.add('light');
+    html.style.colorScheme = 'light';
+  })();
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var brandLink = document.querySelector('header a[href="/"]');
+    if (brandLink) {
+      brandLink.innerHTML = '<img src="/media/dgmm2027_3d.png" alt="DGMM 2027" style="height: 48px; width: auto; display: block;">';
+      brandLink.style.display = 'flex';
+      brandLink.style.alignItems = 'center';
+      brandLink.style.padding = '4px 0';
+    }
+  });
+</script>
+
+<style>
+   
+
+  html, html.dark { color-scheme: light !important; }
+
+   
+  body,
+  section,
+  main,
+  article,
+  header,
+  footer,
+  [data-block],
+  .blox-section {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #37474f !important;
+  }
+
+   
+  .bg-gray-900, .bg-gray-800, .bg-gray-700,
+  .bg-slate-900, .bg-slate-800, .bg-slate-700,
+  .bg-zinc-900, .bg-zinc-800,
+  .bg-neutral-900, .bg-neutral-800,
+  .dark\:bg-gray-900, .dark\:bg-slate-900 {
+    background-color: #ffffff !important;
+  }
+
+   
+  .text-white, .text-gray-100, .text-gray-200,
+  .text-slate-100, .text-slate-200 {
+    color: #37474f !important;
+  }
+
+   
+  header {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e8eaf6 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+  }
+  header a, nav a, .navbar a,
+  header button, nav button {
+    color: #1a237e !important;
+  }
+  header a:hover, nav a:hover { color: #1565c0 !important; }
+
+   
+  .navbar-brand, header .font-bold {
+    color: #1a237e !important;
+    font-weight: 800 !important;
+  }
+
    
   .mx-auto.max-w-screen-xl,
   section .mx-auto,
-  .blox-block .container,
   [class*="max-w-screen-"] {
     max-width: 1400px !important;
   }
 
    
   .dgmm-hero-section {
+    background:
+      linear-gradient(rgba(232,240,254,0.78), rgba(244,247,255,0.82)),
+      url('/media/grenoble-05.jpg') center 38% / cover no-repeat !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
   .dgmm-hero-section > div,
-  .dgmm-hero-section .px-6,
-  .dgmm-hero-section .py-16,
-  .dgmm-hero-section .py-24,
   .dgmm-hero-section [class*="py-"] {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
 
-  .dgmm-hero-wrap {
-    text-align: center;
-    padding: 2rem 1rem 1.5rem;
-  }
+  .dgmm-hero-wrap { text-align: center; padding: 2.5rem 1rem 2rem; }
 
-   
   .dgmm-hero-badge {
     display: inline-block;
-    background: rgba(21, 101, 192, 0.10);
-    color: #5c8ed4;
+    background: rgba(21, 101, 192, 0.08);
+    color: #1565c0 !important;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     padding: 0.3rem 0.9rem;
     border-radius: 999px;
-    border: 1px solid rgba(21, 101, 192, 0.25);
+    border: 1px solid rgba(21, 101, 192, 0.2);
     margin-bottom: 1.1rem;
     display: block;
   }
 
-   
   .dgmm-hero-title {
     font-size: clamp(2.8rem, 6vw, 4.5rem);
     font-weight: 900;
@@ -2171,8 +2244,6 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-
-   
   .dgmm-hero-title::after {
     content: '';
     display: block;
@@ -2184,188 +2255,169 @@
     -webkit-text-fill-color: initial;
   }
 
-   
   .dgmm-hero-subtitle {
     font-size: clamp(1rem, 2.2vw, 1.2rem);
-    font-weight: 500;
-    color: #7986cb;
+    font-weight: 600;
+    color: #1a237e !important;
     margin-bottom: 1.2rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
   }
 
-   
   .dgmm-hero-meta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
+    display: flex; align-items: center; justify-content: center;
+    gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1.5rem;
   }
-
   .dgmm-hero-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    background: rgba(21, 101, 192, 0.15);
-    border: 1px solid rgba(100, 149, 237, 0.4);
-    color: #90caf9 !important;
-    font-size: 0.95rem;
-    font-weight: 600;
-    padding: 0.35rem 0.9rem;
-    border-radius: 999px;
-    text-decoration: none !important;
-    transition: background 0.18s, border-color 0.18s;
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    background: rgba(21, 101, 192, 0.07);
+    border: 1px solid rgba(21, 101, 192, 0.25);
+    color: #1565c0 !important;
+    font-size: 0.95rem; font-weight: 600;
+    padding: 0.35rem 0.9rem; border-radius: 999px;
+    text-decoration: none !important; transition: background 0.18s;
   }
-  a.dgmm-hero-chip:hover {
-    background: rgba(21, 101, 192, 0.28);
-    border-color: rgba(100, 149, 237, 0.7);
-  }
+  a.dgmm-hero-chip:hover { background: rgba(21, 101, 192, 0.14); }
+  .dgmm-hero-sep { color: #90a4ae !important; }
 
-  .dgmm-hero-sep { color: #455a7a; }
-
-   
   .dgmm-hero-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
+    display: flex; align-items: center;
+    justify-content: center; gap: 0.75rem; flex-wrap: wrap;
   }
-
   .dgmm-btn-primary {
-    display: inline-block;
-    background: #1565c0;
-    color: white !important;
-    padding: 0.7rem 1.8rem;
-    border-radius: 6px;
-    text-decoration: none !important;
-    font-weight: 600;
-    font-size: 0.95rem;
-    border: 2px solid #1565c0;
-    transition: background 0.2s, border-color 0.2s;
+    display: inline-block; background: #1565c0; color: white !important;
+    padding: 0.7rem 1.8rem; border-radius: 6px;
+    text-decoration: none !important; font-weight: 600; font-size: 0.95rem;
+    border: 2px solid #1565c0; transition: background 0.2s;
   }
   .dgmm-btn-primary:hover { background: #0d47a1; border-color: #0d47a1; }
-
   .dgmm-btn-outline {
-    display: inline-block;
-    background: transparent;
-    color: #90caf9 !important;
-    padding: 0.7rem 1.8rem;
-    border-radius: 6px;
-    text-decoration: none !important;
-    font-weight: 600;
-    font-size: 0.95rem;
-    border: 2px solid #5c8ed4;
-    transition: background 0.2s, color 0.2s;
+    display: inline-block; background: transparent; color: #1565c0 !important;
+    padding: 0.7rem 1.8rem; border-radius: 6px;
+    text-decoration: none !important; font-weight: 600; font-size: 0.95rem;
+    border: 2px solid #1565c0; transition: background 0.2s, color 0.2s;
   }
-  .dgmm-btn-outline:hover { background: #1565c0; color: white !important; border-color: #1565c0; }
-
-   
+  .dgmm-btn-outline:hover { background: #1565c0; color: white !important; }
 
    
   .dgmm-content-block,
-  .dgmm-content-block div,
+  .dgmm-content-block > div,
+  .dgmm-content-block [class*="py-"],
+  .dgmm-content-block [class*="bg-"] {
+    background: #ffffff !important;
+    background-image: none !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    color: #37474f !important;
+  }
   .dgmm-content-block p,
+  .dgmm-content-block li,
   .dgmm-content-block td,
-  .dgmm-content-block li {
+  .dgmm-content-block span {
     text-align: left !important;
+    color: #37474f !important;
   }
 
-   
   .dgmm-home-grid {
     display: grid;
     grid-template-columns: 1fr 280px;
-    gap: 3rem;
-    align-items: start;
-    width: 100%;
+    gap: 3rem; align-items: start; width: 100%;
   }
-  @media (max-width: 900px) {
-    .dgmm-home-grid { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 900px) { .dgmm-home-grid { grid-template-columns: 1fr; } }
 
-   
   .dgmm-section-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #7986cb;
+    font-size: 1.2rem; font-weight: 700;
+    color: #1565c0 !important;
     border-left: 4px solid #1565c0;
-    padding-left: 0.7rem;
-    margin-bottom: 1rem;
+    padding-left: 0.7rem; margin-bottom: 1rem;
     text-align: left !important;
   }
 
-   
-  .dgmm-dates-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.95rem;
-  }
-  .dgmm-dates-table tr {
-    border-bottom: 1px solid rgba(255,255,255,0.07);
-  }
+  .dgmm-dates-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .dgmm-dates-table tr { border-bottom: 1px solid #e8eaf6; }
   .dgmm-dates-table td {
-    padding: 0.6rem 0.5rem;
-    vertical-align: middle;
-    text-align: left !important;
-  }
-  .dgmm-dates-table td:first-child {
-    color: #b0bec5;
+    padding: 0.6rem 0.5rem; vertical-align: middle;
+    text-align: left !important; color: #37474f !important;
   }
   .dgmm-dates-table td:last-child {
-    text-align: right !important;
-    color: #90caf9;
-    font-weight: 600;
-    white-space: nowrap;
+    text-align: right !important; color: #1565c0 !important;
+    font-weight: 600; white-space: nowrap;
   }
 
-   
-  .dgmm-home-sidebar {
-    border-left: 3px solid rgba(21, 101, 192, 0.35);
-    padding-left: 1.5rem;
-  }
-
+  .dgmm-home-sidebar { border-left: 3px solid #bbdefb; padding-left: 1.5rem; }
   .dgmm-sidebar-title {
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #5c8ed4;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(21, 101, 192, 0.25);
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: #1565c0 !important; margin-bottom: 1rem;
+    padding-bottom: 0.5rem; border-bottom: 1px solid #e3f2fd;
     text-align: left !important;
   }
-
-  .dgmm-news-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
+  .dgmm-news-list { list-style: none; padding: 0; margin: 0; }
   .dgmm-news-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    display: flex; flex-direction: column; gap: 0.25rem;
+    padding: 0.75rem 0; border-bottom: 1px solid #f0f4f8;
   }
   .dgmm-news-item:last-child { border-bottom: none; }
-
   .dgmm-news-date {
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #5c8ed4;
+    font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: #1565c0 !important;
   }
+  .dgmm-news-text { font-size: 0.88rem; line-height: 1.5; color: #546e7a !important; }
 
-  .dgmm-news-text {
-    font-size: 0.88rem;
-    line-height: 1.5;
-    color: #b0bec5;
+   
+  .prose, .prose * { color: #37474f; }
+
+  .prose h1 {
+    color: #1a237e !important; font-size: 2rem !important;
+    font-weight: 800 !important; margin-bottom: 1.5rem !important;
+    padding-bottom: 0.5rem; border-bottom: 3px solid #1565c0;
   }
+  .prose h2 {
+    color: #1565c0 !important; font-size: 1.15rem !important;
+    font-weight: 700 !important; border-left: 4px solid #1565c0;
+    padding-left: 0.7rem !important; margin-top: 2rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+  .prose h3 {
+    color: #1a237e !important; font-size: 1rem !important;
+    font-weight: 700 !important; margin-top: 1.25rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+  .prose p, .prose li { color: #37474f !important; text-align: left !important; }
+  .prose ul, .prose ol { text-align: left !important; }
+  .prose { text-align: left !important; }
+
+   
+  .blox-markdown .max-w-prose {
+    max-width: 860px !important;
+  }
+  .blox-markdown .items-center {
+    align-items: flex-start !important;
+  }
+  .blox-markdown .prose {
+    text-align: left !important;
+  }
+  .blox-markdown .prose p,
+  .blox-markdown .prose li,
+  .blox-markdown .prose h2,
+  .blox-markdown .prose h3 {
+    text-align: left !important;
+  }
+  .prose strong { color: #1a237e !important; }
+  .prose a { color: #1565c0 !important; }
+  .prose a:hover { color: #0d47a1 !important; }
+  .prose hr { border: none; border-top: 1px solid #e8eaf6; margin: 2rem 0; }
+
+  .prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .prose table th {
+    background: #e3f2fd !important; color: #1565c0 !important;
+    font-weight: 600; padding: 0.5rem 0.75rem;
+    text-align: left; border-bottom: 2px solid #bbdefb;
+  }
+  .prose table td {
+    padding: 0.5rem 0.75rem; border-bottom: 1px solid #e8eaf6;
+    vertical-align: top; color: #37474f !important; background: #fff !important;
+  }
+  .prose table tr:last-child td { border-bottom: none; }
 </style>
 
         
@@ -3817,7 +3869,7 @@
 
     
     <script>
-    window.__HBX_LOGS__ = {"currentPage":{"buildId":"1777739001","file":"","kind":"term","layout":"","path":"/tags/hugo/","section":"tags","title":"Hugo","type":"tags"},"deps":[{"path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","vendor":false,"version":""},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v1.2.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","time":"2025-12-01 05:40:50 +0000 UTC","vendor":false,"version":"v0.0.0-20251201054050-e0a99de6dad0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v0.3.0"}],"entries":[{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /courses/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /projects/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page / (found 2 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /call-for-papers/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /committees/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /invited-speakers/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /program/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /registration/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /experience/ (found 4 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /activites/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001},{"buildId":"1777739001","id":"","level":"info","message":"✅  Using sections from front matter for page /membres/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777739001}],"generatedAt":"2026-05-02T16:23:22Z","hugo":{"goVersion":"go1.26.2","version":"0.161.1"},"modules":{"bloxTailwind":{"path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","version":"v0.0.0-20251201054050-e0a99de6dad0"}},"version":1};
+    window.__HBX_LOGS__ = {"currentPage":{"buildId":"1777828850","file":"","kind":"term","layout":"","path":"/tags/hugo/","section":"tags","title":"Hugo","type":"tags"},"deps":[{"path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","vendor":false,"version":""},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v1.2.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/templates/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","time":"2025-12-01 05:40:50 +0000 UTC","vendor":false,"version":"v0.0.0-20251201054050-e0a99de6dad0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v0.3.0"}],"entries":[{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /courses/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /projects/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page / (found 2 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /call-for-papers/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /committees/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /invited-speakers/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /program/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /registration/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /experience/ (found 4 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /activites/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850},{"buildId":"1777828850","id":"","level":"info","message":"✅  Using sections from front matter for page /membres/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1777828850}],"generatedAt":"2026-05-03T17:20:50Z","hugo":{"goVersion":"go1.26.2","version":"0.161.1"},"modules":{"bloxTailwind":{"path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","version":"v0.0.0-20251201054050-e0a99de6dad0"}},"version":1};
   </script>
     <script>
     (function(){

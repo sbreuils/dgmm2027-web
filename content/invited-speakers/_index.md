@@ -4,7 +4,7 @@ date: 2024-01-01
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '2rem'
 
 sections:
   - block: markdown
@@ -21,7 +21,7 @@ sections:
 
         ---
 
-        Previous DGMM editions have featured distinguished keynote speakers from across the fields of discrete geometry, mathematical morphology, image analysis, topology, and related areas. We look forward to announcing an exciting line-up for DGMM 2027.
+
     design:
       columns: '1'
 ---

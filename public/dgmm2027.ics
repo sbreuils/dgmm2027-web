@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DGMM 2027//Grenoble//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DGMM 2027
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270416
+SUMMARY:DGMM 2027 – Discrete Geometry and Mathematical Morphology
+DESCRIPTION:International Conference on Discrete Geometry and Mathematical Morphology. Young/tutorial day: April 12. Main conference: April 13–15. Grenoble, France.
+LOCATION:Grenoble, France
+URL:https://dgmm2027.github.io
+END:VEVENT
+END:VCALENDAR

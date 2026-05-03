@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 62">
+  <defs>
+
+    <!-- Gray 3-D sphere shading for DG -->
+    <radialGradient id="sph-g" cx="33%" cy="28%" r="70%" fx="33%" fy="28%">
+      <stop offset="0%"   stop-color="#f5f5f5"/>
+      <stop offset="30%"  stop-color="#bdbdbd"/>
+      <stop offset="68%"  stop-color="#757575"/>
+      <stop offset="100%" stop-color="#212121"/>
+    </radialGradient>
+
+    <!-- Blue 3-D sphere shading for MM -->
+    <radialGradient id="sph-b" cx="33%" cy="28%" r="70%" fx="33%" fy="28%">
+      <stop offset="0%"   stop-color="#e8f4fd"/>
+      <stop offset="30%"  stop-color="#90caf9"/>
+      <stop offset="68%"  stop-color="#1976d2"/>
+      <stop offset="100%" stop-color="#0a3070"/>
+    </radialGradient>
+
+    <!-- Gray sphere tile (7×7 px, r=3.2) -->
+    <pattern id="sp-g" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="3.2" fill="url(#sph-g)"/>
+    </pattern>
+
+    <!-- Blue sphere tile (7×7 px, r=3.2) -->
+    <pattern id="sp-b" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="3.2" fill="url(#sph-b)"/>
+    </pattern>
+
+    <!--
+      D clip — left bar + top/bottom horizontals + right D-curve
+      Spans x=2–32, y=3–43
+    -->
+    <clipPath id="d1">
+      <rect    x="2"  y="3"  width="7"  height="40"/>
+      <rect    x="2"  y="3"  width="25" height="7"/>
+      <rect    x="2"  y="36" width="25" height="7"/>
+      <polygon points="24,7 32,11 32,32 24,36"/>
+    </clipPath>
+
+    <!--
+      G clip — left bar + top/bottom bars + lower-right bar + middle shelf
+      Spans x=37–66, y=3–43
+    -->
+    <clipPath id="g1">
+      <rect x="37" y="3"  width="7"  height="40"/>
+      <rect x="37" y="3"  width="29" height="7"/>
+      <rect x="37" y="36" width="29" height="7"/>
+      <rect x="59" y="22" width="7"  height="21"/>
+      <rect x="44" y="22" width="22" height="7"/>
+    </clipPath>
+
+    <!--
+      M1 clip — left bar + left diagonal + right diagonal + right bar
+      Spans x=72–104, y=3–43
+    -->
+    <clipPath id="m1">
+      <rect    x="72" y="3" width="8" height="40"/>
+      <polygon points="72,3 80,3 88,23 80,23"/>
+      <polygon points="96,3 104,3 96,23 88,23"/>
+      <rect    x="96" y="3" width="8" height="40"/>
+    </clipPath>
+
+    <!--
+      M2 clip — identical shape shifted +37 px
+      Spans x=109–141, y=3–43
+    -->
+    <clipPath id="m2">
+      <rect    x="109" y="3" width="8" height="40"/>
+      <polygon points="109,3 117,3 125,23 117,23"/>
+      <polygon points="133,3 141,3 133,23 125,23"/>
+      <rect    x="133" y="3" width="8" height="40"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- D — gray sphere voxels -->
+  <rect x="0" y="0" width="36" height="46" fill="url(#sp-g)" clip-path="url(#d1)"/>
+
+  <!-- G — gray sphere voxels -->
+  <rect x="34" y="0" width="36" height="46" fill="url(#sp-g)" clip-path="url(#g1)"/>
+
+  <!-- M1 — blue sphere voxels -->
+  <rect x="69" y="0" width="48" height="46" fill="url(#sp-b)" clip-path="url(#m1)"/>
+
+  <!-- M2 — blue sphere voxels -->
+  <rect x="106" y="0" width="48" height="46" fill="url(#sp-b)" clip-path="url(#m2)"/>
+
+  <!-- 2027 · GRENOBLE subline -->
+  <text x="5" y="57" font-family="Arial,Helvetica,sans-serif"
+        font-size="10" font-weight="700" fill="#1565c0" letter-spacing="2.2">2027 · GRENOBLE</text>
+
+</svg>

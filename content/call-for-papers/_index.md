@@ -4,7 +4,7 @@ date: 2024-01-01
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '2rem'
 
 sections:
   - block: markdown
@@ -65,18 +65,7 @@ sections:
 
         The Springer LNCS author guidelines and LaTeX templates are available at [springer.com](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
 
-        ---
 
-        ## Important Dates
-
-        | | |
-        |---|---|
-        | **Paper submission deadline** | TBD |
-        | **Notification of acceptance** | TBD |
-        | **Camera-ready papers due** | TBD |
-        | **Conference** | TBD, 2027 — Grenoble, France |
-
-        All deadlines are **23:59 AoE** (Anywhere on Earth).
     design:
       columns: '1'
 ---

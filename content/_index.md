@@ -4,7 +4,7 @@ date: 2024-01-01
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '2rem'
 
 sections:
   - block: hero
@@ -18,7 +18,7 @@ sections:
           <div class="dgmm-hero-meta">
             <a href="https://maps.app.goo.gl/tFDL14t5mUcT1FKP7" target="_blank" rel="noopener" class="dgmm-hero-chip">📍 Grenoble, France</a>
             <span class="dgmm-hero-sep">|</span>
-            <span class="dgmm-hero-chip">📅 Date TBD, 2027</span>
+            <a href="/dgmm2027.ics" download class="dgmm-hero-chip" title="Add to calendar">📅 April 12–15, 2027</a>
           </div>
           <div class="dgmm-hero-buttons">
             <a href="/call-for-papers/" class="dgmm-btn-primary">Call for Papers</a>
@@ -45,11 +45,14 @@ sections:
             <h2 class="dgmm-section-title" style="margin-top:2rem;">Important Dates</h2>
             <table class="dgmm-dates-table">
               <tbody>
-                <tr><td>Paper submission deadline</td><td>TBD</td></tr>
-                <tr><td>Notification of acceptance</td><td>TBD</td></tr>
-                <tr><td>Camera-ready papers due</td><td>TBD</td></tr>
-                <tr><td>Early registration deadline</td><td>TBD</td></tr>
-                <tr><td>Conference</td><td>TBD, 2027 — Grenoble, France</td></tr>
+                <tr><td>Abstract submission deadline</td><td>September 25, 2026</td></tr>
+                <tr><td>Preliminary author notification</td><td>November 30, 2026</td></tr>
+                <tr><td>Rebuttal deadline</td><td>December 7, 2026</td></tr>
+                <tr><td>Final acceptance</td><td>December 14, 2026</td></tr>
+                <tr><td>Camera-ready deadline</td><td>January 18, 2027</td></tr>
+                <tr><td>Early registration deadline</td><td>February 1 - February 28, 2027</td></tr>
+                <tr><td>Young/tutorial day</td><td>April 12, 2027</td></tr>
+                <tr><td>Conference</td><td>April 13-15, 2027</td></tr>
               </tbody>
             </table>
             <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">All deadlines are 23:59 AoE (Anywhere on Earth).</p>
@@ -60,8 +63,8 @@ sections:
             <h3 class="dgmm-sidebar-title">News &amp; Announcements</h3>
             <ul class="dgmm-news-list">
               <li class="dgmm-news-item">
-                <span class="dgmm-news-date">2025</span>
-                <span class="dgmm-news-text">Website launched. More announcements to follow.</span>
+                <span class="dgmm-news-date">May 2026</span>
+                <span class="dgmm-news-text">Website launched.</span>
               </li>
             </ul>
           </aside>
