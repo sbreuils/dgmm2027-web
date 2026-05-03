@@ -54,16 +54,6 @@ sections:
         - 3D shape analysis and point clouds
         - Machine learning and deep learning with morphological layers
 
-        ---
-
-        ## Submission Guidelines
-
-        - Papers must be written in **English** and formatted according to the **Springer LNCS** style.
-        - Submissions must be **original** and not under review elsewhere.
-        - The maximum length is **TBD pages** (including references).
-        - Submissions are managed via **EasyChair** (link TBD).
-
-        The Springer LNCS author guidelines and LaTeX templates are available at [springer.com](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
 
 
     design:
