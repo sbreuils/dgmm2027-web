@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'DGMM 2027'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://sbreuils.github.io/dgmm2027-web/'
 
 ############################
 ## LANGUAGE
