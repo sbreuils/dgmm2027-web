@@ -18,7 +18,7 @@ sections:
           <div class="dgmm-hero-meta">
             <a href="https://maps.app.goo.gl/tFDL14t5mUcT1FKP7" target="_blank" rel="noopener" class="dgmm-hero-chip">📍 Grenoble, France</a>
             <span class="dgmm-hero-sep">|</span>
-            <a href="/dgmm2027.ics" download class="dgmm-hero-chip" title="Add to calendar">📅 April 12–15, 2027</a>
+            <a href="/dgmm2027.ics" download class="dgmm-hero-chip" title="Add to calendar">📅 April 13–16, 2027</a>
           </div>
           <div class="dgmm-hero-buttons">
             <a href="/call-for-papers/" class="dgmm-btn-primary">Call for Papers</a>
@@ -51,8 +51,7 @@ sections:
                 <tr><td>Final acceptance</td><td>December 14, 2026</td></tr>
                 <tr><td>Camera-ready deadline</td><td>January 18, 2027</td></tr>
                 <tr><td>Early registration deadline</td><td>February 1 - February 28, 2027</td></tr>
-                <tr><td>Young/tutorial day</td><td>April 12, 2027</td></tr>
-                <tr><td>Conference</td><td>April 13-15, 2027</td></tr>
+                <tr><td>Conference</td><td>April 13-16, 2027</td></tr>
               </tbody>
             </table>
             <p style="font-size:0.85rem; color:#666; margin-top:0.5rem;">All deadlines are 23:59 AoE (Anywhere on Earth).</p>
